@@ -1,0 +1,296 @@
+<ion-header >
+  <ion-toolbar color="primary">
+    <ion-title style="text-align: center;">
+      Mi Salud
+      <ion-icon name="lock-closed-outline" style="position: absolute; width: 60%;"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-header >
+
+  <div class="degrade" style="height: 300px; background-color: #2055B8;">
+
+
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4">
+            <ion-card style="align-items: center;">
+
+                  <ion-row>
+                    <ion-col size="2">
+                      <!-- Contenido de la columna 1 -->
+                      <!-- Puedes agregar cualquier contenido aquí -->
+                    </ion-col>
+              
+                    <ion-col size="8">
+                      <ion-tab-button>
+                        <ion-icon  name="clipboard-outline" style="width: 50px; height: 50px; "></ion-icon>
+                      </ion-tab-button>
+                    </ion-col>
+              
+                    <ion-col size="2">
+                      <!-- Contenido de la columna 3 -->
+                      <!-- Puedes agregar cualquier contenido aquí -->
+                    </ion-col>
+                  </ion-row>
+
+                <ion-card-subtitle style="text-align: center;" color="primary">Agregar un Síntoma</ion-card-subtitle>
+
+            </ion-card>
+          </ion-col>
+    
+          <ion-col size="4">
+            <ion-card>
+
+              <ion-row>
+                <ion-col size="2">
+                  <!-- Contenido de la columna 1 -->
+                  <!-- Puedes agregar cualquier contenido aquí -->
+                </ion-col>
+          
+                <ion-col size="8">
+                  <ion-tab-button>
+                    <ion-icon name="git-network-outline" style="width: 50px; height: 50px; "></ion-icon>
+                  </ion-tab-button>
+                </ion-col>
+          
+                <ion-col size="2">
+                  <!-- Contenido de la columna 3 -->
+                  <!-- Puedes agregar cualquier contenido aquí -->
+                </ion-col>
+              </ion-row>
+                
+                  <ion-card-subtitle style="text-align: center;" color="primary">Agregar una Pregunta</ion-card-subtitle>
+
+            </ion-card>
+          </ion-col>
+    
+          <ion-col size="4">
+            <ion-card>
+
+              <ion-row>
+                <ion-col size="2">
+                  <!-- Contenido de la columna 1 -->
+                  <!-- Puedes agregar cualquier contenido aquí -->
+                </ion-col>
+          
+                <ion-col size="8">
+                  <ion-tab-button>
+                    <ion-icon name="bandage-outline" style="width: 50px; height: 50px; "></ion-icon>
+                  </ion-tab-button>
+                </ion-col>
+          
+                <ion-col size="2">
+                  <!-- Contenido de la columna 3 -->
+                  <!-- Puedes agregar cualquier contenido aquí -->
+                </ion-col>
+              </ion-row>
+
+                <ion-card-subtitle style="text-align: center;" color="primary">Registrar un Medicamento</ion-card-subtitle>
+
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+      <ion-card color="primary">
+
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2">
+              <ion-tab-button>
+                <ion-icon name="calendar-outline" style="height: 35px; width: 35px;"></ion-icon>
+              </ion-tab-button>
+            </ion-col>
+            <ion-col size="8">
+
+                <ion-card-title style="color: white;">Próxima cita</ion-card-title>      
+                feb. 17,2023, 9:30 q.m.
+            </ion-col>
+            <ion-col size="2">
+              <ion-tab-button tab="search">
+                <ion-icon name="chevron-forward-circle-outline" style="height: 50px; width: 50px; position: absolute; height: 150px; color: yellow;"></ion-icon>
+              </ion-tab-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+  
+    </ion-card>
+
+    <ion-card color="primary">
+
+      <ion-grid>
+        <ion-row>
+          <ion-col size="2">
+            <ion-tab-button>
+              <ion-icon name="bandage-outline" style="height: 35px; width: 35px;"></ion-icon>
+            </ion-tab-button>
+          </ion-col>
+          <ion-col size="8">
+
+              <ion-card-title style="color: white;">Mis medicamentos</ion-card-title>      
+              Ondanseton <br>
+              feb. 3, 2023, 6:20 p.m.
+          </ion-col>
+          <ion-col size="2">
+            <ion-tab-button tab="search">
+              <ion-icon name="chevron-forward-circle-outline" style="height: 50px; width: 50px; position: absolute; height: 150px; color: yellow;"></ion-icon>
+            </ion-tab-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+  </ion-card>
+      
+
+    
+  
+  </div>
+
+</ion-header>
+
+<ion-content >
+<div class="example-content" > <!--Listen now content--> 
+
+
+<!-- Tarjeta sintomas inicio -->
+
+<ion-card style="background-color: #DFE7F5;">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="3">
+
+        <ion-img src="assets/sintomas.jpg" style="height: 70px; width: 70px;"></ion-img>
+
+      </ion-col>
+      <ion-col size="7">
+        <ion-card-header>
+          <ion-card-title style="color: blue;">Síntomas</ion-card-title>
+        </ion-card-header>
+    
+        <ion-card-content>
+              2/3/23, 2:20 p.m. -Dolor <br>
+              2/3/23, 2:18 p.m. -Náuseas <br>
+              2/1/23, 5:03 p.m. -Dolor
+        </ion-card-content>
+      </ion-col>
+      <ion-col size="2">
+ 
+          <ion-tab-button tab="search">
+            <ion-icon name="chevron-forward-circle-outline" style="height: 50px; width: 50px; position: absolute; height: 150px; color: yellow;"></ion-icon>
+          </ion-tab-button>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-card>
+
+<!-- Tarjeta sintomas fin -->
+
+<!-- Tarjeta Preguntas inicio -->
+
+<ion-card style="background-color: #DFE7F5;">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="3">
+        <ion-img src="assets/preguntas.jpg" style="height: 70px; width: 70px;"></ion-img>
+      </ion-col>
+      <ion-col size="7">
+        <ion-card-header>
+          <ion-card-title style="color: blue;">Preguntas</ion-card-title>
+        </ion-card-header>
+    
+        <ion-card-content>
+          ¿Cuáles son los síntomas frecuentes de este tipo de cáncer?<br>
+          ¿Dónde puedeo encontrar mas información sobre mi cáncer?
+        </ion-card-content>
+      </ion-col>
+      <ion-col size="2">
+        <ion-tab-button tab="search">
+          <ion-icon name="chevron-forward-circle-outline" style="height: 50px; width: 50px; position: absolute; height: 150px; color: yellow;"></ion-icon>
+        </ion-tab-button>
+      </ion-col>
+    </ion-row>
+
+
+
+  </ion-grid>
+
+</ion-card>
+
+<!-- Tarjeta Preguntas fin -->
+
+<!-- Tarjeta medicamento inicio -->
+
+<ion-card style="background-color: #DFE7F5;">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="3">
+        <ion-img src="assets/medicamento.jpg" style="height: 70px; width: 70px;"></ion-img>
+      </ion-col>
+      <ion-col size="7">
+        <ion-card-header>
+          <ion-card-title style="color: blue;">Medicamentos</ion-card-title>
+        </ion-card-header>
+    
+        <ion-card-content>
+          Ondanstron, 8 mg, dos veces al dia <br>
+
+        </ion-card-content>
+      </ion-col>
+      <ion-col size="2">
+        <ion-tab-button tab="search">
+          <ion-icon name="chevron-forward-circle-outline" style="height: 50px; width: 50px; position: absolute; height: 150px; color: yellow;"></ion-icon>
+        </ion-tab-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-card>
+
+<!-- Tarjeta medicamento fin -->
+
+<!-- Tarjeta registro de medicamentos inicio -->
+
+<ion-card style="background-color: #DFE7F5;">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="3">
+        <ion-img src="assets/registroMedicamento.jpg" style="height: 70px; width: 70px;"></ion-img>
+      </ion-col>
+      <ion-col size="7">
+        <ion-card-header>
+          <ion-card-title style="color: blue;">Registro de medicamentos </ion-card-title>
+        </ion-card-header>
+    
+        <ion-card-content>
+          <!-- Contenido de la columna 1 -->
+          <!-- Puedes agregar cualquier contenido aquí -->
+        </ion-card-content>
+      </ion-col>
+      <ion-col size="2">
+        <ion-tab-button tab="search">
+          <ion-icon name="chevron-forward-circle-outline" style="height: 50px; width: 50px; position: absolute; height: 150px; color: yellow;"></ion-icon>
+        </ion-tab-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-card>
+
+<!-- Tarjeta registro de medicamentos fin -->
+
+
+</div>
+
+</ion-content>
+
+
+
+
